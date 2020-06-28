@@ -11,7 +11,7 @@ Class {
 { #category : #'generated-initialization' }
 VBNetScanner class >> initializeKeywordMap [
 	keywordMap := Dictionary new.
-	#(#(220 'REMOVEHANDLER' 168) #(232 'ADDHANDLER' 30) #(232 'ADDRESSOF' 31) #(232 'AGGREGATE' 32) #(232 'ALIAS' 33) #(232 'AND' 34) #(232 'ANDALSO' 35) #(232 'ANSI' 36) #(232 'AS' 37) #(232 'ASCENDING' 38) #(232 'ASSEMBLY' 39) #(232 'ASYNC' 40) #(232 'AUTO' 41) #(232 'AWAIT' 42) #(232 'BINARY' 43) #(232 'BOOLEAN' 44) #(232 'BY' 45) #(232 'BYREF' 46) #(232 'BYTE' 48) #(232 'BYVAL' 47) #(232 'CALL' 66) #(232 'CASE' 67) #(232 'CATCH' 68) #(232 'CBOOL' 49) #(232 'CBYTE' 50) #(232 'CCHAR' 51) #(232 'CDATE' 52) #(232 'CDBL' 53) #(232 'CDEC' 54) #(232 'CHAR' 69) #(232 'CINT' 55) #(232 'CLASS' 70) #(232 'CLNG' 56) #(232 'COBJ' 57) #(232 'COMPARE' 71) #(232 'CONST' 72) #(232 'CONTINUE' 73) #(232 'CSBYTE' 58) #(232 'CSHORT' 59) #(232 'CSNG' 60) #(232 'CSTR' 61) #(232 'CTYPE' 62) #(232 'CUINT' 63) #(232 'CULNG' 64) #(232 'CUSHORT' 65) #(232 'CUSTOM' 74) #(232 'DATE' 75) #(232 'DECIMAL' 76) #(232 'DECLARE' 77) #(232 'DEFAULT' 78) #(232 'DELEGATE' 79) #(232 'DESCENDING' 80) #(232 'DIM' 81) #(232 'DIRECTCAST' 82) #(232 'DISTINCT' 83) #(232 'DO' 84) #(232 'DOUBLE' 85) #(232 'EACH' 86) #(232 'ELSE' 87) #(232 'END' 88) #(232 'ENUM' 89) #(232 'EQUALS' 90) #(232 'ERASE' 91) #(232 'ERROR' 92) #(232 'EVENT' 93) #(232 'EXIT' 94) #(232 'EXPLICIT' 95) #(232 'FALSE' 222) #(232 'FINALLY' 96) #(232 'FOR' 97) #(232 'FRIEND' 98) #(232 'FROM' 99) #(232 'FUNCTION' 100) #(232 'GET' 101) #(232 'GETTYPE' 102) #(232 'GETXMLNAMESPACE' 103) #(232 'GLOBAL' 104) #(232 'GOTO' 105) #(232 'GROUP' 106) #(232 'HANDLES' 107) #(232 'IF' 108) #(232 'IMPLEMENTS' 109) #(232 'IMPORTS' 110) #(232 'IN' 111) #(232 'INFER' 112) #(232 'INHERITS' 113) #(232 'INTEGER' 114) #(232 'INTERFACE' 115) #(232 'INTO' 116) #(232 'IS' 117) #(232 'ISFALSE' 118) #(232 'ISNOT' 119) #(232 'ISTRUE' 120) #(232 'ITERATOR' 121) #(232 'JOIN' 122) #(232 'KEY' 123) #(232 'LET' 124) #(232 'LIB' 125) #(232 'LIKE' 126) #(232 'LONG' 127) #(232 'LOOP' 128) #(232 'ME' 129) #(232 'MID' 130) #(232 'MOD' 131) #(232 'MODULE' 132) #(232 'MUSTINHERIT' 133) #(232 'MUSTOVERRIDE' 134) #(232 'MYBASE' 135) #(232 'MYCLASS' 136) #(232 'NAMESPACE' 137) #(232 'NARROWING' 138) #(232 'NEW' 139) #(232 'NEXT' 140) #(232 'NOT' 141) #(232 'NOTHING' 231) #(232 'NOTINHERITABLE' 142) #(232 'NOTOVERRIDABLE' 143) #(232 'OBJECT' 144) #(232 'OF' 145) #(232 'OFF' 146) #(232 'ON' 147) #(232 'OPERATOR' 148) #(232 'OPTION' 149) #(232 'OPTIONAL' 150) #(232 'OR' 151) #(232 'ORDER' 153) #(232 'ORELSE' 152) #(232 'OUT' 154) #(232 'OVERLOADS' 155) #(232 'OVERRIDABLE' 156) #(232 'OVERRIDES' 157) #(232 'PARAMARRAY' 158) #(232 'PARTIAL' 159) #(232 'PRESERVE' 160) #(232 'PRIVATE' 161) #(232 'PROPERTY' 162) #(232 'PROTECTED' 163) #(232 'PUBLIC' 164) #(232 'RAISEEVENT' 165) #(232 'READONLY' 167) #(232 'REDIM' 166) #(232 'REMOVEHANDLER' 168) #(232 'RESUME' 169) #(232 'RETURN' 170) #(232 'SBYTE' 171) #(232 'SELECT' 172) #(232 'SET' 173) #(232 'SHADOWS' 174) #(232 'SHARED' 175) #(232 'SHORT' 176) #(232 'SINGLE' 177) #(232 'SKIP' 178) #(232 'STATIC' 179) #(232 'STEP' 180) #(232 'STOP' 181) #(232 'STRICT' 182) #(232 'STRING' 183) #(232 'STRUCTURE' 184) #(232 'SUB' 185) #(232 'SYNCLOCK' 186) #(232 'TAKE' 187) #(232 'TEXT' 188) #(232 'THEN' 189) #(232 'THROW' 190) #(232 'TO' 191) #(232 'TRUE' 222) #(232 'TRY' 192) #(232 'TRYCAST' 193) #(232 'TYPEOF' 194) #(232 'UINTEGER' 195) #(232 'ULONG' 196) #(232 'UNICODE' 198) #(232 'UNTIL' 199) #(232 'USHORT' 197) #(232 'USING' 200) #(232 'WHEN' 201) #(232 'WHERE' 202) #(232 'WHILE' 203) #(232 'WIDENING' 204) #(232 'WITH' 205) #(232 'WITHEVENTS' 206) #(232 'WRITEONLY' 207) #(232 'XOR' 208) #(232 'YIELD' 209) #(233 'ADDHANDLER' 30) #(233 'ADDRESSOF' 31) #(233 'AGGREGATE' 32) #(233 'ALIAS' 33) #(233 'AND' 34) #(233 'ANDALSO' 35) #(233 'ANSI' 36) #(233 'AS' 37) #(233 'ASCENDING' 38) #(233 'ASSEMBLY' 39) #(233 'ASYNC' 40) #(233 'AUTO' 41) #(233 'AWAIT' 42) #(233 'BINARY' 43) #(233 'BOOLEAN' 44) #(233 'BY' 45) #(233 'BYREF' 46) #(233 'BYTE' 48) #(233 'BYVAL' 47) #(233 'CALL' 66) #(233 'CASE' 67) #(233 'CATCH' 68) #(233 'CBOOL' 49) #(233 'CBYTE' 50) #(233 'CCHAR' 51) #(233 'CDATE' 52) #(233 'CDBL' 53) #(233 'CDEC' 54) #(233 'CHAR' 69) #(233 'CINT' 55) #(233 'CLASS' 70) #(233 'CLNG' 56) #(233 'COBJ' 57) #(233 'COMPARE' 71) #(233 'CONST' 72) #(233 'CONTINUE' 73) #(233 'CSBYTE' 58) #(233 'CSHORT' 59) #(233 'CSNG' 60) #(233 'CSTR' 61) #(233 'CTYPE' 62) #(233 'CUINT' 63) #(233 'CULNG' 64) #(233 'CUSHORT' 65) #(233 'CUSTOM' 74) #(233 'DATE' 75) #(233 'DECIMAL' 76) #(233 'DECLARE' 77) #(233 'DEFAULT' 78) #(233 'DELEGATE' 79) #(233 'DESCENDING' 80) #(233 'DIM' 81) #(233 'DIRECTCAST' 82) #(233 'DISTINCT' 83) #(233 'DO' 84) #(233 'DOUBLE' 85) #(233 'EACH' 86) #(233 'ELSE' 87) #(233 'END' 88) #(233 'ENUM' 89) #(233 'EQUALS' 90) #(233 'ERASE' 91) #(233 'ERROR' 92) #(233 'EVENT' 93) #(233 'EXIT' 94) #(233 'EXPLICIT' 95) #(233 'FALSE' 222) #(233 'FINALLY' 96) #(233 'FOR' 97) #(233 'FRIEND' 98) #(233 'FROM' 99) #(233 'FUNCTION' 100) #(233 'GET' 101) #(233 'GETTYPE' 102) #(233 'GETXMLNAMESPACE' 103) #(233 'GLOBAL' 104) #(233 'GOTO' 105) #(233 'GROUP' 106) #(233 'HANDLES' 107) #(233 'IF' 108) #(233 'IMPLEMENTS' 109) #(233 'IMPORTS' 110) #(233 'IN' 111) #(233 'INFER' 112) #(233 'INHERITS' 113) #(233 'INTEGER' 114) #(233 'INTERFACE' 115) #(233 'INTO' 116) #(233 'IS' 117) #(233 'ISFALSE' 118) #(233 'ISNOT' 119) #(233 'ISTRUE' 120) #(233 'ITERATOR' 121) #(233 'JOIN' 122) #(233 'KEY' 123) #(233 'LET' 124) #(233 'LIB' 125) #(233 'LIKE' 126) #(233 'LONG' 127) #(233 'LOOP' 128) #(233 'ME' 129) #(233 'MID' 130) #(233 'MOD' 131) #(233 'MODULE' 132) #(233 'MUSTINHERIT' 133) #(233 'MUSTOVERRIDE' 134) #(233 'MYBASE' 135) #(233 'MYCLASS' 136) #(233 'NAMESPACE' 137) #(233 'NARROWING' 138) #(233 'NEW' 139) #(233 'NEXT' 140) #(233 'NOT' 141) #(233 'NOTHING' 231) #(233 'NOTINHERITABLE' 142) #(233 'NOTOVERRIDABLE' 143) #(233 'OBJECT' 144) #(233 'OF' 145) #(233 'OFF' 146) #(233 'ON' 147) #(233 'OPERATOR' 148) #(233 'OPTION' 149) #(233 'OPTIONAL' 150) #(233 'OR' 151) #(233 'ORDER' 153) #(233 'ORELSE' 152) #(233 'OUT' 154) #(233 'OVERLOADS' 155) #(233 'OVERRIDABLE' 156) #(233 'OVERRIDES' 157) #(233 'PARAMARRAY' 158) #(233 'PARTIAL' 159) #(233 'PRESERVE' 160) #(233 'PRIVATE' 161) #(233 'PROPERTY' 162) #(233 'PROTECTED' 163) #(233 'PUBLIC' 164) #(233 'RAISEEVENT' 165) #(233 'READONLY' 167) #(233 'REDIM' 166) #(233 'REMOVEHANDLER' 168) #(233 'RESUME' 169) #(233 'RETURN' 170) #(233 'SBYTE' 171) #(233 'SELECT' 172) #(233 'SET' 173) #(233 'SHADOWS' 174) #(233 'SHARED' 175) #(233 'SHORT' 176) #(233 'SINGLE' 177) #(233 'SKIP' 178) #(233 'STATIC' 179) #(233 'STEP' 180) #(233 'STOP' 181) #(233 'STRICT' 182) #(233 'STRING' 183) #(233 'STRUCTURE' 184) #(233 'SUB' 185) #(233 'SYNCLOCK' 186) #(233 'TAKE' 187) #(233 'TEXT' 188) #(233 'THEN' 189) #(233 'THROW' 190) #(233 'TO' 191) #(233 'TRUE' 222) #(233 'TRY' 192) #(233 'TRYCAST' 193) #(233 'TYPEOF' 194) #(233 'UINTEGER' 195) #(233 'ULONG' 196) #(233 'UNICODE' 198) #(233 'UNTIL' 199) #(233 'USHORT' 197) #(233 'USING' 200) #(233 'WHEN' 201) #(233 'WHERE' 202) #(233 'WHILE' 203) #(233 'WIDENING' 204) #(233 'WITH' 205) #(233 'WITHEVENTS' 206) #(233 'WRITEONLY' 207) #(233 'XOR' 208) #(233 'YIELD' 209))
+	#(#(218 'REMOVEHANDLER' 167) #(228 'ADDHANDLER' 30) #(228 'ADDRESSOF' 31) #(228 'AGGREGATE' 32) #(228 'ALIAS' 33) #(228 'AND' 34) #(228 'ANDALSO' 35) #(228 'ANSI' 36) #(228 'AS' 37) #(228 'ASCENDING' 38) #(228 'ASSEMBLY' 39) #(228 'ASYNC' 40) #(228 'AUTO' 41) #(228 'AWAIT' 42) #(228 'BINARY' 43) #(228 'BOOLEAN' 44) #(228 'BY' 45) #(228 'BYREF' 46) #(228 'BYTE' 48) #(228 'BYVAL' 47) #(228 'CALL' 66) #(228 'CASE' 67) #(228 'CATCH' 68) #(228 'CBOOL' 49) #(228 'CBYTE' 50) #(228 'CCHAR' 51) #(228 'CDATE' 52) #(228 'CDBL' 53) #(228 'CDEC' 54) #(228 'CHAR' 69) #(228 'CINT' 55) #(228 'CLASS' 70) #(228 'CLNG' 56) #(228 'COBJ' 57) #(228 'COMPARE' 71) #(228 'CONST' 72) #(228 'CONTINUE' 73) #(228 'CSBYTE' 58) #(228 'CSHORT' 59) #(228 'CSNG' 60) #(228 'CSTR' 61) #(228 'CTYPE' 62) #(228 'CUINT' 63) #(228 'CULNG' 64) #(228 'CUSHORT' 65) #(228 'CUSTOM' 74) #(228 'DATE' 75) #(228 'DECIMAL' 76) #(228 'DECLARE' 77) #(228 'DEFAULT' 78) #(228 'DELEGATE' 79) #(228 'DESCENDING' 80) #(228 'DIM' 81) #(228 'DIRECTCAST' 82) #(228 'DISTINCT' 83) #(228 'DO' 84) #(228 'DOUBLE' 85) #(228 'EACH' 86) #(228 'ELSE' 87) #(228 'END' 88) #(228 'ENUM' 89) #(228 'EQUALS' 90) #(228 'ERASE' 91) #(228 'ERROR' 92) #(228 'EVENT' 93) #(228 'EXIT' 94) #(228 'EXPLICIT' 95) #(228 'FALSE' 219) #(228 'FINALLY' 96) #(228 'FOR' 97) #(228 'FRIEND' 98) #(228 'FROM' 99) #(228 'FUNCTION' 100) #(228 'GET' 101) #(228 'GETTYPE' 102) #(228 'GLOBAL' 103) #(228 'GOTO' 104) #(228 'GROUP' 105) #(228 'HANDLES' 106) #(228 'IF' 107) #(228 'IMPLEMENTS' 108) #(228 'IMPORTS' 109) #(228 'IN' 110) #(228 'INFER' 111) #(228 'INHERITS' 112) #(228 'INTEGER' 113) #(228 'INTERFACE' 114) #(228 'INTO' 115) #(228 'IS' 116) #(228 'ISFALSE' 117) #(228 'ISNOT' 118) #(228 'ISTRUE' 119) #(228 'ITERATOR' 120) #(228 'JOIN' 121) #(228 'KEY' 122) #(228 'LET' 123) #(228 'LIB' 124) #(228 'LIKE' 125) #(228 'LONG' 126) #(228 'LOOP' 127) #(228 'ME' 128) #(228 'MID' 129) #(228 'MOD' 130) #(228 'MODULE' 131) #(228 'MUSTINHERIT' 132) #(228 'MUSTOVERRIDE' 133) #(228 'MYBASE' 134) #(228 'MYCLASS' 135) #(228 'NAMESPACE' 136) #(228 'NARROWING' 137) #(228 'NEW' 138) #(228 'NEXT' 139) #(228 'NOT' 140) #(228 'NOTHING' 227) #(228 'NOTINHERITABLE' 141) #(228 'NOTOVERRIDABLE' 142) #(228 'OBJECT' 143) #(228 'OF' 144) #(228 'OFF' 145) #(228 'ON' 146) #(228 'OPERATOR' 147) #(228 'OPTION' 148) #(228 'OPTIONAL' 149) #(228 'OR' 150) #(228 'ORDER' 152) #(228 'ORELSE' 151) #(228 'OUT' 153) #(228 'OVERLOADS' 154) #(228 'OVERRIDABLE' 155) #(228 'OVERRIDES' 156) #(228 'PARAMARRAY' 157) #(228 'PARTIAL' 158) #(228 'PRESERVE' 159) #(228 'PRIVATE' 160) #(228 'PROPERTY' 161) #(228 'PROTECTED' 162) #(228 'PUBLIC' 163) #(228 'RAISEEVENT' 164) #(228 'READONLY' 166) #(228 'REDIM' 165) #(228 'REMOVEHANDLER' 167) #(228 'RESUME' 168) #(228 'RETURN' 169) #(228 'SBYTE' 170) #(228 'SELECT' 171) #(228 'SET' 172) #(228 'SHADOWS' 173) #(228 'SHARED' 174) #(228 'SHORT' 175) #(228 'SINGLE' 176) #(228 'SKIP' 177) #(228 'STATIC' 178) #(228 'STEP' 179) #(228 'STOP' 180) #(228 'STRICT' 181) #(228 'STRING' 182) #(228 'STRUCTURE' 183) #(228 'SUB' 184) #(228 'SYNCLOCK' 185) #(228 'TAKE' 186) #(228 'TEXT' 187) #(228 'THEN' 188) #(228 'THROW' 189) #(228 'TO' 190) #(228 'TRUE' 219) #(228 'TRY' 191) #(228 'TRYCAST' 192) #(228 'TYPEOF' 193) #(228 'UINTEGER' 194) #(228 'ULONG' 195) #(228 'UNICODE' 197) #(228 'UNTIL' 198) #(228 'USHORT' 196) #(228 'USING' 199) #(228 'WHEN' 200) #(228 'WHERE' 201) #(228 'WHILE' 202) #(228 'WIDENING' 203) #(228 'WITH' 204) #(228 'WITHEVENTS' 205) #(228 'WRITEONLY' 206) #(228 'XOR' 207) #(228 'YIELD' 208) #(229 'ADDHANDLER' 30) #(229 'ADDRESSOF' 31) #(229 'AGGREGATE' 32) #(229 'ALIAS' 33) #(229 'AND' 34) #(229 'ANDALSO' 35) #(229 'ANSI' 36) #(229 'AS' 37) #(229 'ASCENDING' 38) #(229 'ASSEMBLY' 39) #(229 'ASYNC' 40) #(229 'AUTO' 41) #(229 'AWAIT' 42) #(229 'BINARY' 43) #(229 'BOOLEAN' 44) #(229 'BY' 45) #(229 'BYREF' 46) #(229 'BYTE' 48) #(229 'BYVAL' 47) #(229 'CALL' 66) #(229 'CASE' 67) #(229 'CATCH' 68) #(229 'CBOOL' 49) #(229 'CBYTE' 50) #(229 'CCHAR' 51) #(229 'CDATE' 52) #(229 'CDBL' 53) #(229 'CDEC' 54) #(229 'CHAR' 69) #(229 'CINT' 55) #(229 'CLASS' 70) #(229 'CLNG' 56) #(229 'COBJ' 57) #(229 'COMPARE' 71) #(229 'CONST' 72) #(229 'CONTINUE' 73) #(229 'CSBYTE' 58) #(229 'CSHORT' 59) #(229 'CSNG' 60) #(229 'CSTR' 61) #(229 'CTYPE' 62) #(229 'CUINT' 63) #(229 'CULNG' 64) #(229 'CUSHORT' 65) #(229 'CUSTOM' 74) #(229 'DATE' 75) #(229 'DECIMAL' 76) #(229 'DECLARE' 77) #(229 'DEFAULT' 78) #(229 'DELEGATE' 79) #(229 'DESCENDING' 80) #(229 'DIM' 81) #(229 'DIRECTCAST' 82) #(229 'DISTINCT' 83) #(229 'DO' 84) #(229 'DOUBLE' 85) #(229 'EACH' 86) #(229 'ELSE' 87) #(229 'END' 88) #(229 'ENUM' 89) #(229 'EQUALS' 90) #(229 'ERASE' 91) #(229 'ERROR' 92) #(229 'EVENT' 93) #(229 'EXIT' 94) #(229 'EXPLICIT' 95) #(229 'FALSE' 219) #(229 'FINALLY' 96) #(229 'FOR' 97) #(229 'FRIEND' 98) #(229 'FROM' 99) #(229 'FUNCTION' 100) #(229 'GET' 101) #(229 'GETTYPE' 102) #(229 'GLOBAL' 103) #(229 'GOTO' 104) #(229 'GROUP' 105) #(229 'HANDLES' 106) #(229 'IF' 107) #(229 'IMPLEMENTS' 108) #(229 'IMPORTS' 109) #(229 'IN' 110) #(229 'INFER' 111) #(229 'INHERITS' 112) #(229 'INTEGER' 113) #(229 'INTERFACE' 114) #(229 'INTO' 115) #(229 'IS' 116) #(229 'ISFALSE' 117) #(229 'ISNOT' 118) #(229 'ISTRUE' 119) #(229 'ITERATOR' 120) #(229 'JOIN' 121) #(229 'KEY' 122) #(229 'LET' 123) #(229 'LIB' 124) #(229 'LIKE' 125) #(229 'LONG' 126) #(229 'LOOP' 127) #(229 'ME' 128) #(229 'MID' 129) #(229 'MOD' 130) #(229 'MODULE' 131) #(229 'MUSTINHERIT' 132) #(229 'MUSTOVERRIDE' 133) #(229 'MYBASE' 134) #(229 'MYCLASS' 135) #(229 'NAMESPACE' 136) #(229 'NARROWING' 137) #(229 'NEW' 138) #(229 'NEXT' 139) #(229 'NOT' 140) #(229 'NOTHING' 227) #(229 'NOTINHERITABLE' 141) #(229 'NOTOVERRIDABLE' 142) #(229 'OBJECT' 143) #(229 'OF' 144) #(229 'OFF' 145) #(229 'ON' 146) #(229 'OPERATOR' 147) #(229 'OPTION' 148) #(229 'OPTIONAL' 149) #(229 'OR' 150) #(229 'ORDER' 152) #(229 'ORELSE' 151) #(229 'OUT' 153) #(229 'OVERLOADS' 154) #(229 'OVERRIDABLE' 155) #(229 'OVERRIDES' 156) #(229 'PARAMARRAY' 157) #(229 'PARTIAL' 158) #(229 'PRESERVE' 159) #(229 'PRIVATE' 160) #(229 'PROPERTY' 161) #(229 'PROTECTED' 162) #(229 'PUBLIC' 163) #(229 'RAISEEVENT' 164) #(229 'READONLY' 166) #(229 'REDIM' 165) #(229 'REMOVEHANDLER' 167) #(229 'RESUME' 168) #(229 'RETURN' 169) #(229 'SBYTE' 170) #(229 'SELECT' 171) #(229 'SET' 172) #(229 'SHADOWS' 173) #(229 'SHARED' 174) #(229 'SHORT' 175) #(229 'SINGLE' 176) #(229 'SKIP' 177) #(229 'STATIC' 178) #(229 'STEP' 179) #(229 'STOP' 180) #(229 'STRICT' 181) #(229 'STRING' 182) #(229 'STRUCTURE' 183) #(229 'SUB' 184) #(229 'SYNCLOCK' 185) #(229 'TAKE' 186) #(229 'TEXT' 187) #(229 'THEN' 188) #(229 'THROW' 189) #(229 'TO' 190) #(229 'TRUE' 219) #(229 'TRY' 191) #(229 'TRYCAST' 192) #(229 'TYPEOF' 193) #(229 'UINTEGER' 194) #(229 'ULONG' 195) #(229 'UNICODE' 197) #(229 'UNTIL' 198) #(229 'USHORT' 196) #(229 'USING' 199) #(229 'WHEN' 200) #(229 'WHERE' 201) #(229 'WHILE' 202) #(229 'WIDENING' 203) #(229 'WITH' 204) #(229 'WITHEVENTS' 205) #(229 'WRITEONLY' 206) #(229 'XOR' 207) #(229 'YIELD' 208))
 		do: [ :each | 
 			(keywordMap at: each first ifAbsentPut: [ Dictionary new ])
 				at: (each at: 2)
@@ -21,12 +21,12 @@ VBNetScanner class >> initializeKeywordMap [
 
 { #category : #generated }
 VBNetScanner >> IdentifierId [
-	^ 233
+	^ 229
 ]
 
 { #category : #generated }
 VBNetScanner >> IdentifierOrKeywordId [
-	^ 232
+	^ 228
 ]
 
 { #category : #private }
@@ -37,17 +37,17 @@ VBNetScanner >> LineContinuation [
 
 { #category : #generated }
 VBNetScanner >> LineTerminatorId [
-	^ 217
+	^ 215
 ]
 
 { #category : #generated }
 VBNetScanner >> emptySymbolTokenId [
-	^ 687
+	^ 649
 ]
 
 { #category : #generated }
 VBNetScanner >> errorTokenId [
-	^ 688
+	^ 650
 ]
 
 { #category : #'initialize-release' }
@@ -85,10 +85,10 @@ VBNetScanner >> scan1 [
 		or: [ currentCharacter
 				between: (Character value: 8220)
 				and: (Character value: 8221) ])
-		ifTrue: [ self recordMatch: #(226).
+		ifTrue: [ self recordMatch: #(223).
 			self step.
 			('Cc' includes: currentCharacter)
-				ifTrue: [ ^ self recordAndReportMatch: #(228) ].
+				ifTrue: [ ^ self recordAndReportMatch: #(224) ].
 			(currentCharacter == $"
 				or: [ currentCharacter
 						between: (Character value: 8220)
@@ -100,19 +100,19 @@ VBNetScanner >> scan1 [
 
 { #category : #generated }
 VBNetScanner >> scan10 [
-	[ self recordMatch: #(234).
+	[ self recordMatch: #(230).
 	self step.
 	currentCharacter == Character cr
-		ifTrue: [ self recordMatch: #(234).
+		ifTrue: [ self recordMatch: #(230).
 			self step.
 			currentCharacter == Character lf
-				ifTrue: [ ^ self recordAndReportMatch: #(234) ].
+				ifTrue: [ ^ self recordAndReportMatch: #(230) ].
 			^ self reportLastMatch ].
 	(currentCharacter == Character lf
 		or: [ currentCharacter
 				between: (Character value: 8232)
 				and: (Character value: 8233) ])
-		ifTrue: [ ^ self recordAndReportMatch: #(234) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(230) ].
 	true ] whileTrue
 ]
 
@@ -128,19 +128,19 @@ VBNetScanner >> scan11 [
 VBNetScanner >> scan12 [
 	self step.
 	('ILSils' includes: currentCharacter)
-		ifTrue: [ ^ self recordAndReportMatch: #(223) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(220) ].
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
 VBNetScanner >> scan13 [
-	[ self recordMatch: #(225).
+	[ self recordMatch: #(222).
 	self step.
 	currentCharacter isDigit ] whileTrue.
 	('Ee' includes: currentCharacter)
 		ifTrue: [ ^ self scan14 ].
 	('!#@DFRdfr' includes: currentCharacter)
-		ifTrue: [ ^ self recordAndReportMatch: #(225) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(222) ].
 	^ self reportLastMatch
 ]
 
@@ -156,22 +156,22 @@ VBNetScanner >> scan14 [
 
 { #category : #generated }
 VBNetScanner >> scan15 [
-	[ self recordMatch: #(225).
+	[ self recordMatch: #(222).
 	self step.
 	currentCharacter isDigit ] whileTrue.
 	('!#@DFRdfr' includes: currentCharacter)
-		ifTrue: [ ^ self recordAndReportMatch: #(225) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(222) ].
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
 VBNetScanner >> scan16 [
-	[ self recordMatch: #(232 233).
+	[ self recordMatch: #(228 229).
 	self step.
 	(currentCharacter == $!
 		or: [ (currentCharacter between: $# and: $&)
 				or: [ currentCharacter == $@ ] ])
-		ifTrue: [ ^ self recordAndReportMatch: #(232 233) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(228 229) ].
 	currentCharacter isAlphaNumeric
 		or: [ currentCharacter == $_
 				or: [ currentCharacter
@@ -182,14 +182,14 @@ VBNetScanner >> scan16 [
 
 { #category : #generated }
 VBNetScanner >> scan17 [
-	self recordMatch: #(232 233).
+	self recordMatch: #(228 229).
 	self step.
 	('Ll' includes: currentCharacter)
 		ifTrue: [ ^ self scan18 ].
 	(currentCharacter == $!
 		or: [ (currentCharacter between: $# and: $&)
 				or: [ currentCharacter == $@ ] ])
-		ifTrue: [ ^ self recordAndReportMatch: #(232 233) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(228 229) ].
 	(currentCharacter isAlphaNumeric
 		or: [ currentCharacter == $_
 				or: [ currentCharacter
@@ -201,13 +201,13 @@ VBNetScanner >> scan17 [
 
 { #category : #generated }
 VBNetScanner >> scan18 [
-	self recordMatch: #(232 233).
+	self recordMatch: #(228 229).
 	self step.
 	('Ss' includes: currentCharacter)
-		ifTrue: [ self recordMatch: #(232 233).
+		ifTrue: [ self recordMatch: #(228 229).
 			self step.
 			('Ee' includes: currentCharacter)
-				ifTrue: [ self recordMatch: #(232 233).
+				ifTrue: [ self recordMatch: #(228 229).
 					self step.
 					(currentCharacter == Character tab
 						or: [ currentCharacter == Character space ])
@@ -217,18 +217,18 @@ VBNetScanner >> scan18 [
 							('Ii' includes: currentCharacter)
 								ifTrue: [ self step.
 									('Ff' includes: currentCharacter)
-										ifTrue: [ ^ self recordAndReportMatch: #(230) ] ].
+										ifTrue: [ ^ self recordAndReportMatch: #(226) ] ].
 							^ self reportLastMatch ].
 					('Ii' includes: currentCharacter)
-						ifTrue: [ self recordMatch: #(232 233).
+						ifTrue: [ self recordMatch: #(228 229).
 							self step.
 							('Ff' includes: currentCharacter)
-								ifTrue: [ self recordMatch: #(230 232 233).
+								ifTrue: [ self recordMatch: #(226 228 229).
 									self step ] ] ] ].
 	(currentCharacter == $!
 		or: [ (currentCharacter between: $# and: $&)
 				or: [ currentCharacter == $@ ] ])
-		ifTrue: [ ^ self recordAndReportMatch: #(232 233) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(228 229) ].
 	(currentCharacter isAlphaNumeric
 		or: [ currentCharacter == $_
 				or: [ currentCharacter
@@ -240,14 +240,14 @@ VBNetScanner >> scan18 [
 
 { #category : #generated }
 VBNetScanner >> scan19 [
-	self recordMatch: #(232 233).
+	self recordMatch: #(228 229).
 	(self scanForString: 'EM')
 		ifTrue:
 			[ ^ self scan19X1 ].
 	(currentCharacter == $!
 		or: [ (currentCharacter between: $# and: $&)
 				or: [ currentCharacter == $@ ] ])
-		ifTrue: [ ^ self recordAndReportMatch: #(232 233) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(228 229) ].
 	(currentCharacter isAlphaNumeric
 		or: [ currentCharacter == $_
 				or: [ currentCharacter
@@ -259,7 +259,7 @@ VBNetScanner >> scan19 [
 
 { #category : #generated }
 VBNetScanner >> scan19X1 [
-	[ self recordMatch: #(220 232 233).
+	[ self recordMatch: #(218 228 229).
 	self step.
 	(currentCharacter
 		between: (Character value: 768)
@@ -268,12 +268,12 @@ VBNetScanner >> scan19X1 [
 	(currentCharacter == $!
 		or: [ (currentCharacter between: $# and: $&)
 				or: [ currentCharacter == $@ ] ])
-		ifTrue: [ self recordMatch: #(220 232 233).
+		ifTrue: [ self recordMatch: #(218 228 229).
 			self step.
 			(currentCharacter <= Character tab
 				or: [ (currentCharacter between: Character pageUp and: Character newPage)
 						or: [ currentCharacter >= (Character value: 14) ] ])
-				ifTrue: [ [ self recordMatch: #(220).
+				ifTrue: [ [ self recordMatch: #(218).
 					self step.
 					currentCharacter <= Character tab
 						or: [ (currentCharacter between: Character pageUp and: Character newPage)
@@ -283,7 +283,7 @@ VBNetScanner >> scan19X1 [
 	currentCharacter isAlphaNumeric or: [ currentCharacter == $_ ] ]
 		whileTrue.
 	true
-		ifTrue: [ [ self recordMatch: #(220).
+		ifTrue: [ [ self recordMatch: #(218).
 			self step.
 			currentCharacter <= Character tab
 				or: [ (currentCharacter between: Character pageUp and: Character newPage)
@@ -298,7 +298,7 @@ VBNetScanner >> scan2 [
 		or: [ currentCharacter
 				between: (Character value: 8220)
 				and: (Character value: 8221) ])
-		ifTrue: [ self recordMatch: #(226).
+		ifTrue: [ self recordMatch: #(223).
 			self step.
 			(currentCharacter == $"
 				or: [ currentCharacter
@@ -313,7 +313,7 @@ VBNetScanner >> scan2 [
 VBNetScanner >> scan20 [
 	[ self step.
 	currentCharacter == $]
-		ifTrue: [ ^ self recordAndReportMatch: #(232 233) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(228 229) ].
 	currentCharacter isAlphaNumeric
 		or: [ currentCharacter == $_
 				or: [ currentCharacter
@@ -324,10 +324,10 @@ VBNetScanner >> scan20 [
 
 { #category : #generated }
 VBNetScanner >> scan21 [
-	self recordMatch: #(218).
+	self recordMatch: #(216).
 	self step.
 	currentCharacter == Character lf
-		ifTrue: [ ^ self recordAndReportMatch: #(218) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(216) ].
 	^ self reportLastMatch
 ]
 
@@ -424,7 +424,7 @@ VBNetScanner >> scan5 [
 	('Mm' includes: currentCharacter)
 		ifTrue: [ [ self step.
 			currentCharacter == $#
-				ifTrue: [ ^ self recordAndReportMatch: #(229) ].
+				ifTrue: [ ^ self recordAndReportMatch: #(225) ].
 			currentCharacter == Character tab
 				or: [ currentCharacter == Character space ] ] whileTrue ].
 	^ self reportLastMatch
@@ -442,13 +442,13 @@ VBNetScanner >> scan6 [
 VBNetScanner >> scan7 [
 	[ self step.
 	currentCharacter == $#
-		ifTrue: [ ^ self recordAndReportMatch: #(229) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(225) ].
 	currentCharacter isDigit ] whileTrue.
 	(currentCharacter == Character tab
 		or: [ currentCharacter == Character space ])
 		ifTrue: [ [ self step.
 			currentCharacter == $#
-				ifTrue: [ ^ self recordAndReportMatch: #(229) ].
+				ifTrue: [ ^ self recordAndReportMatch: #(225) ].
 			currentCharacter isDigit
 				ifTrue: [ [ self step.
 					currentCharacter == $:
@@ -471,13 +471,13 @@ VBNetScanner >> scan8 [
 	currentCharacter isDigit
 		ifTrue: [ [ self step.
 			currentCharacter == $#
-				ifTrue: [ ^ self recordAndReportMatch: #(229) ].
+				ifTrue: [ ^ self recordAndReportMatch: #(225) ].
 			currentCharacter == $:
 				ifTrue: [ self step.
 					currentCharacter isDigit
 						ifTrue: [ [ self step.
 							currentCharacter == $#
-								ifTrue: [ ^ self recordAndReportMatch: #(229) ].
+								ifTrue: [ ^ self recordAndReportMatch: #(225) ].
 							currentCharacter isDigit ] whileTrue.
 							(currentCharacter == Character tab
 								or: [ currentCharacter == Character space ])
@@ -498,7 +498,7 @@ VBNetScanner >> scan8 [
 VBNetScanner >> scan9 [
 	[ self step.
 	currentCharacter == $#
-		ifTrue: [ ^ self recordAndReportMatch: #(229) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(225) ].
 	currentCharacter == Character tab
 		or: [ currentCharacter == Character space ] ] whileTrue.
 	('APap' includes: currentCharacter)
@@ -511,8 +511,8 @@ VBNetScanner >> scanForToken [
 	self step.
 	currentCharacter == Character cr
 		ifTrue:
-			[ ^ self scanForTokenX17 ].
-	^ self scanForTokenX21
+			[ ^ self scanForTokenX18 ].
+	^ self scanForTokenX22
 ]
 
 { #category : #generated }
@@ -526,7 +526,7 @@ VBNetScanner >> scanForTokenX1 [
 			(currentCharacter isDigit
 				or: [ (currentCharacter between: $A and: $F)
 						or: [ currentCharacter between: $a and: $f ] ])
-				ifTrue: [ [ self recordMatch: #(223).
+				ifTrue: [ [ self recordMatch: #(220).
 					self step.
 					('Uu' includes: currentCharacter)
 						ifTrue: [ ^ self scan12 ].
@@ -536,12 +536,12 @@ VBNetScanner >> scanForTokenX1 [
 					((currentCharacter between: $% and: $&)
 						or:
 							[ 'ILSils' includes: currentCharacter ])
-						ifTrue: [ ^ self recordAndReportMatch: #(223) ] ].
+						ifTrue: [ ^ self recordAndReportMatch: #(220) ] ].
 			^ self reportLastMatch ].
 	('Oo' includes: currentCharacter)
 		ifTrue: [ self step.
 			(currentCharacter between: $0 and: $7)
-				ifTrue: [ [ self recordMatch: #(223).
+				ifTrue: [ [ self recordMatch: #(220).
 					self step.
 					currentCharacter between: $0 and: $7 ] whileTrue.
 					('Uu' includes: currentCharacter)
@@ -549,13 +549,13 @@ VBNetScanner >> scanForTokenX1 [
 					((currentCharacter between: $% and: $&)
 						or:
 							[ 'ILSils' includes: currentCharacter ])
-						ifTrue: [ ^ self recordAndReportMatch: #(223) ] ] ].
+						ifTrue: [ ^ self recordAndReportMatch: #(220) ] ] ].
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX10 [
-	[ self recordMatch: #(219).
+	[ self recordMatch: #(217).
 	self step.
 	currentCharacter == Character tab
 		or: [ currentCharacter == Character space ] ] whileTrue.
@@ -564,15 +564,24 @@ VBNetScanner >> scanForTokenX10 [
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX11 [
-	self recordMatch: #(213).
+	self recordMatch: #(211).
 	self step.
 	currentCharacter == $=
-		ifTrue: [ ^ self recordAndReportMatch: #(214) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(212) ].
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX12 [
+	self recordMatch: #(209).
+	self step.
+	currentCharacter == $=
+		ifTrue: [ ^ self recordAndReportMatch: #(210) ].
+	^ self reportLastMatch
+]
+
+{ #category : #generated }
+VBNetScanner >> scanForTokenX13 [
 	self recordMatch: #(17).
 	self step.
 	currentCharacter == $=
@@ -581,7 +590,7 @@ VBNetScanner >> scanForTokenX12 [
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX13 [
+VBNetScanner >> scanForTokenX14 [
 	self recordMatch: #(15).
 	self step.
 	currentCharacter == $=
@@ -590,7 +599,7 @@ VBNetScanner >> scanForTokenX13 [
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX14 [
+VBNetScanner >> scanForTokenX15 [
 	self recordMatch: #(12).
 	self step.
 	currentCharacter == $=
@@ -599,7 +608,7 @@ VBNetScanner >> scanForTokenX14 [
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX15 [
+VBNetScanner >> scanForTokenX16 [
 	self recordMatch: #(9).
 	self step.
 	currentCharacter == $=
@@ -608,7 +617,7 @@ VBNetScanner >> scanForTokenX15 [
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX16 [
+VBNetScanner >> scanForTokenX17 [
 	self recordMatch: #(7).
 	self step.
 	currentCharacter == $=
@@ -617,16 +626,16 @@ VBNetScanner >> scanForTokenX16 [
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX17 [
-	self recordMatch: #(217).
+VBNetScanner >> scanForTokenX18 [
+	self recordMatch: #(215).
 	self step.
 	currentCharacter == Character lf
-		ifTrue: [ ^ self recordAndReportMatch: #(217) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(215) ].
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX18 [
+VBNetScanner >> scanForTokenX19 [
 	self recordMatch: #(14).
 	self step.
 	currentCharacter isDigit
@@ -635,41 +644,8 @@ VBNetScanner >> scanForTokenX18 [
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX19 [
-	currentCharacter isDigit
-		ifTrue:
-			[ ^ self scanForTokenX2 ].
-	(currentCharacter == Character tab
-		or: [ currentCharacter == Character space ])
-		ifTrue:
-			[ ^ self scanForTokenX10 ].
-	('Ee' includes: currentCharacter)
-		ifTrue: [ ^ self scan17 ].
-	(currentCharacter == Character lf
-		or: [ currentCharacter
-				between: (Character value: 8232)
-				and: (Character value: 8233) ])
-		ifTrue: [ ^ self recordAndReportMatch: #(217) ].
-	(currentCharacter == $"
-		or: [ currentCharacter
-				between: (Character value: 8220)
-				and: (Character value: 8221) ])
-		ifTrue:
-			[ ^ self scanForTokenX5 ].
-	(currentCharacter == $'
-		or: [ currentCharacter
-				between: (Character value: 8216)
-				and: (Character value: 8217) ])
-		ifTrue:
-			[ ^ self scanForTokenX4 ].
-	currentCharacter isLetter
-		ifTrue: [ ^ self scan16 ].
-	^ self reportLastMatch
-]
-
-{ #category : #generated }
 VBNetScanner >> scanForTokenX2 [
-	[ self recordMatch: #(223 224).
+	[ self recordMatch: #(220 221).
 	self step.
 	currentCharacter == $.
 		ifTrue: [ self step.
@@ -684,20 +660,53 @@ VBNetScanner >> scanForTokenX2 [
 	((currentCharacter between: $% and: $&)
 		or:
 			[ 'ILSils' includes: currentCharacter ])
-		ifTrue: [ ^ self recordAndReportMatch: #(223) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(220) ].
 	('!#@DFRdfr' includes: currentCharacter)
-		ifTrue: [ ^ self recordAndReportMatch: #(225) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(222) ].
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX20 [
+	currentCharacter isDigit
+		ifTrue:
+			[ ^ self scanForTokenX2 ].
+	(currentCharacter == Character tab
+		or: [ currentCharacter == Character space ])
+		ifTrue:
+			[ ^ self scanForTokenX10 ].
+	('Ee' includes: currentCharacter)
+		ifTrue: [ ^ self scan17 ].
+	(currentCharacter == Character lf
+		or: [ currentCharacter
+				between: (Character value: 8232)
+				and: (Character value: 8233) ])
+		ifTrue: [ ^ self recordAndReportMatch: #(215) ].
+	(currentCharacter == $"
+		or: [ currentCharacter
+				between: (Character value: 8220)
+				and: (Character value: 8221) ])
+		ifTrue:
+			[ ^ self scanForTokenX9 ].
+	(currentCharacter == $'
+		or: [ currentCharacter
+				between: (Character value: 8216)
+				and: (Character value: 8217) ])
+		ifTrue:
+			[ ^ self scanForTokenX4 ].
+	currentCharacter isLetter
+		ifTrue: [ ^ self scan16 ].
+	^ self reportLastMatch
+]
+
+{ #category : #generated }
+VBNetScanner >> scanForTokenX21 [
 	currentCharacter == $:
 		ifTrue:
-			[ ^ self scanForTokenX12 ].
+			[ ^ self scanForTokenX13 ].
 	currentCharacter == $<
 		ifTrue:
-			[ ^ self scanForTokenX6 ].
+			[ ^ self scanForTokenX5 ].
 	currentCharacter == $=
 		ifTrue: [ ^ self recordAndReportMatch: #(24) ].
 	currentCharacter == $>
@@ -712,7 +721,7 @@ VBNetScanner >> scanForTokenX20 [
 			[ ^ self scanForTokenX7 ].
 	currentCharacter == $\
 		ifTrue:
-			[ ^ self scanForTokenX9 ].
+			[ ^ self scanForTokenX12 ].
 	currentCharacter == $^
 		ifTrue:
 			[ ^ self scanForTokenX11 ].
@@ -720,14 +729,14 @@ VBNetScanner >> scanForTokenX20 [
 		ifTrue:
 			[ ^ self scanForTokenX3 ].
 	currentCharacter == ${
-		ifTrue: [ ^ self recordAndReportMatch: #(215) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(213) ].
 	currentCharacter == $}
-		ifTrue: [ ^ self recordAndReportMatch: #(216) ].
-	^ self scanForTokenX19
+		ifTrue: [ ^ self recordAndReportMatch: #(214) ].
+	^ self scanForTokenX20
 ]
 
 { #category : #generated }
-VBNetScanner >> scanForTokenX21 [
+VBNetScanner >> scanForTokenX22 [
 	currentCharacter == $!
 		ifTrue: [ ^ self recordAndReportMatch: #(1) ].
 	currentCharacter == $#
@@ -743,22 +752,22 @@ VBNetScanner >> scanForTokenX21 [
 		ifTrue: [ ^ self recordAndReportMatch: #(6) ].
 	currentCharacter == $*
 		ifTrue:
-			[ ^ self scanForTokenX16 ].
+			[ ^ self scanForTokenX17 ].
 	currentCharacter == $+
 		ifTrue:
-			[ ^ self scanForTokenX15 ].
+			[ ^ self scanForTokenX16 ].
 	currentCharacter == $,
 		ifTrue: [ ^ self recordAndReportMatch: #(11) ].
 	currentCharacter == $-
 		ifTrue:
-			[ ^ self scanForTokenX14 ].
+			[ ^ self scanForTokenX15 ].
 	currentCharacter == $.
 		ifTrue:
-			[ ^ self scanForTokenX18 ].
+			[ ^ self scanForTokenX19 ].
 	currentCharacter == $/
 		ifTrue:
-			[ ^ self scanForTokenX13 ].
-	^ self scanForTokenX20
+			[ ^ self scanForTokenX14 ].
+	^ self scanForTokenX21
 ]
 
 { #category : #generated }
@@ -777,13 +786,13 @@ VBNetScanner >> scanForTokenX3 [
 				or: [ currentCharacter
 						between: (Character value: 8232)
 						and: (Character value: 8233) ])
-				ifTrue: [ ^ self recordAndReportMatch: #(218) ].
+				ifTrue: [ ^ self recordAndReportMatch: #(216) ].
 			^ self reportLastMatch ].
 	(currentCharacter == Character lf
 		or: [ currentCharacter
 				between: (Character value: 8232)
 				and: (Character value: 8233) ])
-		ifTrue: [ ^ self recordAndReportMatch: #(218) ].
+		ifTrue: [ ^ self recordAndReportMatch: #(216) ].
 	(currentCharacter isAlphaNumeric
 		or: [ currentCharacter == $_
 				or: [ currentCharacter
@@ -795,40 +804,16 @@ VBNetScanner >> scanForTokenX3 [
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX4 [
-	self recordMatch: #(220 221).
+	[ self recordMatch: #(218).
 	self step.
-	(currentCharacter <= Character tab
+	currentCharacter <= Character tab
 		or: [ (currentCharacter between: Character pageUp and: Character newPage)
-				or: [ currentCharacter >= (Character value: 14) ] ])
-		ifTrue: [ [ self recordMatch: #(220).
-			self step.
-			currentCharacter <= Character tab
-				or: [ (currentCharacter between: Character pageUp and: Character newPage)
-						or: [ currentCharacter >= (Character value: 14) ] ] ] whileTrue ].
+				or: [ currentCharacter >= (Character value: 14) ] ] ] whileTrue.
 	^ self reportLastMatch
 ]
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX5 [
-	self recordMatch: #(227).
-	self step.
-	(currentCharacter == $"
-		or: [ currentCharacter
-				between: (Character value: 8220)
-				and: (Character value: 8221) ])
-		ifTrue: [ self recordMatch: #(226).
-			self step.
-			(currentCharacter == $"
-				or: [ currentCharacter
-						between: (Character value: 8220)
-						and: (Character value: 8221) ])
-				ifTrue: [ ^ self scan1 ].
-			^ self reportLastMatch ].
-	^ self scan1
-]
-
-{ #category : #generated }
-VBNetScanner >> scanForTokenX6 [
 	self recordMatch: #(19).
 	self step.
 	currentCharacter == $<
@@ -841,6 +826,18 @@ VBNetScanner >> scanForTokenX6 [
 		ifTrue: [ ^ self recordAndReportMatch: #(22) ].
 	currentCharacter == $>
 		ifTrue: [ ^ self recordAndReportMatch: #(23) ].
+	^ self reportLastMatch
+]
+
+{ #category : #generated }
+VBNetScanner >> scanForTokenX6 [
+	self recordMatch: #(223).
+	self step.
+	(currentCharacter == $"
+		or: [ currentCharacter
+				between: (Character value: 8220)
+				and: (Character value: 8221) ])
+		ifTrue: [ ^ self scan1 ].
 	^ self reportLastMatch
 ]
 
@@ -877,18 +874,18 @@ VBNetScanner >> scanForTokenX8 [
 
 { #category : #generated }
 VBNetScanner >> scanForTokenX9 [
-	self recordMatch: #(210).
 	self step.
-	currentCharacter == $=
-		ifTrue: [ ^ self recordAndReportMatch: #(211) ].
-	currentCharacter == $\
-		ifTrue: [ ^ self recordAndReportMatch: #(212) ].
-	^ self reportLastMatch
+	(currentCharacter == $"
+		or: [ currentCharacter
+				between: (Character value: 8220)
+				and: (Character value: 8221) ])
+		ifTrue: [ ^ self scanForTokenX6 ].
+	^ self scan1
 ]
 
 { #category : #generated }
 VBNetScanner >> tokenActions [
-	^ #(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil #LineContinuation #whitespace #comment nil nil nil nil nil nil nil nil nil nil nil nil nil #preprocessorDirective)
+	^ #(nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil #LineContinuation #whitespace #comment nil nil nil nil nil nil nil nil nil nil nil #preprocessorDirective)
 ]
 
 { #category : #generated }
